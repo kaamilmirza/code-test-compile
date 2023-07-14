@@ -102,5 +102,6 @@ Note: Please remember to replace `<your_MongoDB_connection_string>`, `<your_JWT_
 
 ![image](https://github.com/kaamilmirza/cometlabs-backend/assets/64482251/a379e7ec-e29f-437f-b4f1-dc4d0bc65951)
 ![image](https://github.com/kaamilmirza/cometlabs-backend/assets/64482251/296d36f5-d34c-4760-8cc7-16cc18394fce)
+![image](https://github.com/kaamilmirza/cometlabs-backend/assets/64482251/1488d04e-4f4c-4055-b066-e3ef89b9b4c5)
 
 
