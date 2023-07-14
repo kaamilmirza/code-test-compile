@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 require('dotenv').config();
+const test = require('./test/test');
 
 // Create Express app
 const app = express();
@@ -19,6 +20,10 @@ db.once('open', () => {
   console.log('Connected to MongoDB');
 });
 //testing sphere engine api connection
+test();
+// Routes
+const questionRoutes = require('./routes/questionRoutes');
+app.use('/api', questionRoutes);
 
 // Start the server
 const port = process.env.PORT || 3000;
