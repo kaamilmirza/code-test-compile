@@ -11,7 +11,7 @@ const {
 } = require('../controllers/questionsController');
 const {
   authenticateToken,
-  isAdmin
+  isAdmin,
 } = require('../middleware/authMiddleware');
 const {
     signup,
