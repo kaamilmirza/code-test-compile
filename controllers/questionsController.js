@@ -77,6 +77,23 @@ async function addTestCase(req, res) {
   }
 }
 
+async function getQuestions(req, res) {
+    try {
+      const { page, limit } = req.query; // Get the page number and limit from the query parameters
+  
+      const options = {
+        page: parseInt(page, 10) || 1, // Convert the page number to an integer (default to 1 if not provided)
+        limit: parseInt(limit, 10) || 10, // Convert the limit to an integer (default to 10 if not provided)
+      };
+  
+      const questions = await Question.paginate({}, options); // Use the paginate method provided by a pagination library (e.g., mongoose-paginate-v2)
+  
+      res.json(questions);
+    } catch (error) {
+      res.status(500).json({ message: error.message });
+    }
+  }
+  
 const axios = require("axios");
 
 async function submitSolution(req, res) {
@@ -231,4 +248,5 @@ module.exports = {
   deleteQuestion,
   addTestCase,
   submitSolution,
+  getQuestions,
 };
