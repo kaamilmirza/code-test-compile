@@ -248,5 +248,5 @@ module.exports = {
   deleteQuestion,
   addTestCase,
   submitSolution,
-  getQuestions,
+    getQuestions,
 };
