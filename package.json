@@ -20,6 +20,8 @@
     "jsonwebtoken": "^9.0.1",
     "mongoose": "^7.3.4",
     "request": "^2.88.2",
-    "nodemon" : "2.0.22"
+    "nodemon" : "2.0.22",
+    "mongoose-paginate-v2": "^1.7.1"
+
   }
 }
