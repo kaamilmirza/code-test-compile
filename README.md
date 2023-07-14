@@ -2,6 +2,33 @@
 
 To make a Coding platform where participants can solve questions for the problems provided, run the questions using the Sphere Engine, and the admin can add, edit or delete the questions.
 
+## Features
+
+- **Question Management:**
+  - [x] Create new questions with details such as title, description, and difficulty level.
+  - [x] Edit existing questions to update their information.
+  - [x] Delete questions that are no longer needed.
+  - [x] Retrieve a list of all available questions.
+
+- **Test Case Management:**
+  - [x] Add test cases to questions to validate participants' solutions.
+  - [x] Edit test cases associated with questions.
+  - [x] Delete test cases that need modification or are no longer relevant.
+
+- **Authentication and Authorization:**
+  - [x] Sign up functionality to register new participants.
+  - [x] Login functionality to authenticate users.
+  - [x] Role-based access control to ensure appropriate permissions for specific actions.
+
+- **Code Submission and Evaluation:**
+  - [x] Participants can submit their solutions to specific questions.
+  - [x] Solutions are evaluated using the Sphere Engine, ensuring accurate assessment of correctness and performance.
+
+- **API Documentation:**
+  - [x] Detailed API documentation describing all available endpoints and their functionalities.
+
+- **Infrastructure and Deployment:**
+  - [x] Hosted the Node.js server on Vercel for scalability and accessibility.
 ## Installation
 
 1. Clone the repository.
