@@ -94,11 +94,13 @@ Refer to the code for detailed endpoint descriptions.
 
 ```
 Please replace `<your_MongoDB_connection_string>`, `<your_JWT_secret_key>`, `<your_Sphere_Engine_access_token>`, and `<your_Sphere_Engine_endpoint>` with the actual values in your .env file.
-
+```
 Feel free to modify the API endpoints and their descriptions as needed.
-```
-```
-
 Note: Please remember to replace `<your_MongoDB_connection_string>`, `<your_JWT_secret_key>`, `<your_Sphere_Engine_access_token>`, and `<your_Sphere_Engine_endpoint>` with the actual values in your `.env` file.
 
-You can copy the above Markdown content and directly paste it into your README.md file on GitHub.
+### Reference images 
+
+![image](https://github.com/kaamilmirza/cometlabs-backend/assets/64482251/a379e7ec-e29f-437f-b4f1-dc4d0bc65951)
+![image](https://github.com/kaamilmirza/cometlabs-backend/assets/64482251/296d36f5-d34c-4760-8cc7-16cc18394fce)
+
+
