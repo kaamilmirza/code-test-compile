@@ -7,11 +7,12 @@ const {
   editQuestion,
   deleteQuestion,
   addTestCase,
-  submitSolution
+  submitSolution,
+  getQuestions
 } = require('../controllers/questionsController');
 const {
   authenticateToken,
-  isAdmin,
+  isAdmin
 } = require('../middleware/authMiddleware');
 const {
     signup,
@@ -30,6 +31,9 @@ router.post('/questions', authenticateToken, isAdmin, addQuestion);
 
 // Edit a question
 router.put('/questions/:questionId', authenticateToken, isAdmin, editQuestion);
+
+// Get all questions
+router.get('/questions', authenticateToken, getQuestions);
 
 // Delete a question
 router.delete('/questions/:questionId', authenticateToken, isAdmin, deleteQuestion);
