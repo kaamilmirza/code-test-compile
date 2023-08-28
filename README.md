@@ -1,4 +1,4 @@
-# CometLabs Backend challenge
+# Coding platform
 
 To make a Coding platform where participants can solve questions for the problems provided, run the questions using the Sphere Engine, and the admin can add, edit or delete the questions.
 
